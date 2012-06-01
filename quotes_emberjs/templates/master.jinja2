@@ -49,6 +49,7 @@
     <div class="container">
 	
      {% block content %}{% endblock %}	 
+     
       <hr />
       <footer>
 		{% block footer %}
@@ -61,7 +62,8 @@
 <script>window.jQuery || document.write('<script src="{{ request.static_url('quotes_emberjs:static/js/libs/jquery-1.7.2.min.js') }}"><\/script>')</script>
 
 <script src="{{ request.static_url('quotes_emberjs:static/js/libs/bootstrap/bootstrap.min.js') }}"></script>
-
 <script src="{{ request.static_url('quotes_emberjs:static/js/script.js') }}"></script>
+<script src="{{ request.static_url('quotes_emberjs:static/js/libs/ember-0.9.8.1.min.js') }}"></script>
+<script src="{{ request.static_url('quotes_emberjs:static/js/app.js') }}"></script>
 </body>
 </html>
