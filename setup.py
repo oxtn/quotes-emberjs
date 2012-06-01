@@ -19,9 +19,9 @@ requires = [
     'pyramid_jinja2',
     ]
 
-setup(name='quotes',
+setup(name='quotes_emberjs',
       version='0.0',
-      description='quotes',
+      description='quotes_emberjs',
       long_description=README + '\n\n' +  CHANGES,
       classifiers=[
         "Programming Language :: Python",
@@ -40,9 +40,9 @@ setup(name='quotes',
       install_requires=requires,
       entry_points="""\
       [paste.app_factory]
-      main = quotes:main
+      main = quotes_emberjs:main
       [console_scripts]
-      initialize_quotes_db = quotes.scripts.initializedb:main
+      initialize_quotes_emberjs_db = quotes_emberjs.scripts.initializedb:main
       """,
       )
 

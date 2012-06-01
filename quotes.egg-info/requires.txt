@@ -5,3 +5,6 @@ pyramid_tm
 pyramid_debugtoolbar
 zope.sqlalchemy
 waitress
+pyramid_simpleform
+pyramid_beaker
+pyramid_jinja2
